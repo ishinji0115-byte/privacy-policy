@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>プライバシーポリシー — AIまとめ検索</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #fafafc;
+    --border: #e0e0e0;
+    --text: #1d1d1f;
+    --text-dim: #6e6e73;
+    --accent: #0066cc;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", "Hiragino Sans", sans-serif;
+    line-height: 1.85;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 56px 24px 96px;
+  }
+  h1 {
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+    margin-bottom: 4px;
+  }
+  .updated {
+    color: var(--text-dim);
+    font-size: 13px;
+    margin-bottom: 40px;
+  }
+  h2 {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--accent);
+    margin-top: 40px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 8px;
+  }
+  p, li { color: #333333; font-size: 15px; font-weight: 400; }
+  ul { padding-left: 20px; }
+  .box {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin: 16px 0;
+  }
+  .placeholder {
+    color: var(--accent);
+    font-weight: 600;
+  }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>プライバシーポリシー</h1>
+  <div class="updated">施行日:2026年7月26日 ・ 最終更新:2026年7月26日</div>
+
+  <p>本拡張機能(「AIまとめ検索」、以下「本拡張機能」)は、ChatGPT・Claude・Geminiの会話を1箇所から横断検索できるようにし、長い会話も軽快に保つツールです。このページでは、どのようなデータを、何のために扱っているかを正確に説明します。</p>
+
+  <h2>収集する情報</h2>
+  <p>本拡張機能を導入した状態でChatGPT(chatgpt.com)・Claude(claude.ai)・Gemini(gemini.google.com)を利用しているとき、画面に表示されているメッセージの文章(あなたの発言・AIの返答の両方)を読み取り、ローカルの検索インデックス作成、および長い会話の軽量化のために使用します。</p>
+  <p>アカウントのパスワードや決済情報、上記3サイト以外のWebサイトの閲覧履歴などは、一切収集しません。</p>
+
+  <h2>データの保存場所</h2>
+  <div class="box">
+    <strong>無料プラン(標準):</strong> インデックス化された会話データは、すべてあなたの端末内(Chromeのローカルストレージ)に保存されます。外部のサーバーへ送信されることは一切ありません。拡張機能をアンインストールすると完全に削除されます。
+  </div>
+  <div class="box">
+    <strong>有料プラン(任意・課金制):</strong> デバイス間同期を有効にした場合のみ、暗号化されたデータのコピーを弊社のクラウド基盤(Supabase)に保存し、他の端末からも参照できるようにします。この機能はご自身で有効にしない限り作動しません。
+  </div>
+
+  <h2>行わないこと</h2>
+  <ul>
+    <li>広告事業者・データブローカー等の第三者へ、データを販売・貸与・共有することはありません。</li>
+    <li>会話データをパーソナライズ広告のために使用することはありません。</li>
+    <li>会話データをAIモデルの学習に使用することはありません。</li>
+    <li>ChatGPT・Claude・Geminiの画面に広告や第三者スクリプトを挿入することはありません。</li>
+  </ul>
+
+  <h2>利用している第三者サービス</h2>
+  <p>有料プランをご利用の場合、以下の2社のサービスを利用します。</p>
+  <ul>
+    <li><strong>Stripe</strong> — 決済処理。カード情報を弊社が保持・閲覧することはありません。詳細は<a href="https://stripe.com/privacy">Stripeのプライバシーポリシー</a>をご覧ください。</li>
+    <li><strong>Supabase</strong> — デバイス間同期を有効にした場合の、暗号化データの保存先。詳細は<a href="https://supabase.com/privacy">Supabaseのプライバシーポリシー</a>をご覧ください。</li>
+  </ul>
+
+  <h2>要求している権限とその理由</h2>
+  <ul>
+    <li><strong>chatgpt.com・claude.ai・gemini.google.comへのアクセス</strong> — これらのページ上のメッセージを読み取り、検索インデックスを作成するために必要です。</li>
+    <li><strong>ストレージ</strong> — 検索インデックスを端末内に保存するために必要です。</li>
+  </ul>
+
+  <h2>データの管理について</h2>
+  <p>拡張機能をChromeから削除することで、いつでもローカルに保存されたデータをすべて削除できます。有料の同期機能を有効にしていて、クラウド上のデータ削除を希望される場合は、下記の連絡先までご連絡ください。</p>
+
+  <h2>児童のプライバシーについて</h2>
+  <p>本拡張機能は児童を対象としたものではなく、13歳未満(またはお住まいの国・地域で定める年齢未満)の児童から意図的にデータを収集することはありません。</p>
+
+  <h2>本ポリシーの変更について</h2>
+  <p>本ポリシーを変更する場合は、このページ上部の更新日を変更します。</p>
+
+  <h2>お問い合わせ</h2>
+  <p>本ポリシーに関するご質問:<a href="mailto:bebyosoza@mirai.re">bebyosoza@mirai.re</a></p>
+
+</div>
+</body>
+</html>
